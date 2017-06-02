@@ -1,0 +1,446 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 9, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-1 {
+  width: calc(8.33333% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-2 {
+  width: calc(16.66667% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-3 {
+  width: calc(25% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-4 {
+  width: calc(33.33333% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-5 {
+  width: calc(41.66667% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-6 {
+  width: calc(50% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-7 {
+  width: calc(58.33333% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-8 {
+  width: calc(66.66667% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-9 {
+  width: calc(75% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-10 {
+  width: calc(83.33333% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-11 {
+  width: calc(91.66667% - 20px);
+}
+
+/* line 48, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.grid-12 {
+  width: calc(100% - 20px);
+}
+
+/* line 68, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+[class^="grid-"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 68, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+  [class^="grid-"] {
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-1 {
+  margin-left: calc(8.33333% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-2 {
+  margin-left: calc(16.66667% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-3 {
+  margin-left: calc(25% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-4 {
+  margin-left: calc(33.33333% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-5 {
+  margin-left: calc(41.66667% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-6 {
+  margin-left: calc(50% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-7 {
+  margin-left: calc(58.33333% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-8 {
+  margin-left: calc(66.66667% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-9 {
+  margin-left: calc(75% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-10 {
+  margin-left: calc(83.33333% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-11 {
+  margin-left: calc(91.66667% + 10px);
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.offset-12 {
+  margin-left: calc(100% + 10px);
+}
+
+@media screen and (max-width: 759px) {
+  /* line 82, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+  .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7, .offset-8, .offset-9, .offset-10, .offset-11, .offset-12 {
+    margin-left: 0px;
+  }
+}
+
+/* line 112, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.container {
+  max-width: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media screen and (min-width: 760px) and (max-width: 99%) {
+  /* line 112, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+  .container {
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  /* line 112, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+  .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* line 90, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.container::after, .container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 127, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.row {
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 127, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* line 90, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_grid.scss */
+.row::after, .row::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@font-face {
+  font-family: "Gentius";
+  src: url("../font/GenBkBasR.ttf") format("truetype");
+}
+
+/* line 11, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 16, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+div {
+  display: block;
+}
+
+/* line 19, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 29, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+body {
+  background-color: #f2f2f2;
+  font-family: "Gentius";
+  font-weight: 300;
+  font-size: 16px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+
+/* line 41, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.menu {
+  background-color: #17181c;
+  color: #fff;
+  height: 50px;
+  font-size: 32pt;
+}
+
+/* line 49, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.conteudo {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 57, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flex {
+  display: flex;
+}
+
+/* line 61, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flex-item-1 {
+  flex: 1;
+}
+
+/* line 67, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.center {
+  align-content: center;
+  margin-top: 4px;
+}
+
+/* line 71, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flexwrap {
+  flex-wrap: wrap;
+}
+
+/* line 75, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.header {
+  height: 400px;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+/* line 88, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flex-logo {
+  align-self: center;
+}
+
+/* line 92, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.column {
+  flex-direction: column;
+}
+
+/* line 95, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flex-end {
+  justify-content: flex-end;
+}
+
+/* line 100, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.telefone {
+  font-size: 30pt;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* line 106, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.servicos {
+  background-color: #17181c;
+  color: #fff;
+}
+
+/* line 111, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flex-servico {
+  flex: 1;
+}
+
+/* line 114, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.flex-servico p {
+  font-size: 24pt;
+  line-height: 36pt;
+}
+
+/* line 118, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.divServico {
+  display: flex;
+  padding-top: 30px;
+}
+
+/* line 122, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.listaServicos {
+  text-align: right;
+  padding-right: 70px;
+}
+
+/* line 126, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.listaLocais {
+  text-align: left;
+  padding-left: 70px;
+}
+
+/* line 130, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+h1 {
+  font-size: 32pt;
+}
+
+/* line 133, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+h2 {
+  font-size: 20pt;
+}
+
+/* line 136, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.trator {
+  flex: 1;
+  align-self: center;
+  padding-top: 30px;
+}
+
+/* line 142, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.trator img {
+  width: 60%;
+}
+
+/* line 145, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.fk {
+  padding-bottom: 26px;
+}
+
+/* line 148, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.contato {
+  background-color: #fff;
+  color: #17181c;
+}
+
+/* line 152, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+footer {
+  height: 50px;
+  background-color: #17181c;
+  color: #fff;
+}
+
+/* line 157, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+footer p {
+  padding-top: 5px;
+}
+
+/*# sourceMappingURL=../css/style.map */

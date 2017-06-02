@@ -1,0 +1,159 @@
+ 
+@import 'reset';
+@import 'grid';
+
+ 
+@font-face {
+    font-family: "Gentius";
+    src: url("../font/GenBkBasR.ttf") format('truetype');
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+html,
+body {
+  height:100%
+} // tem que colocar essa porra senão o min-height 100% nao funciona.
+
+//Variaveis
+$corBackground: #f2f2f2;
+$corCinzaTrator: #17181c;
+$corBranco: #fff;
+
+body {
+  
+    background-color: $corBackground; 
+    font-family: "Gentius";
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+}
+
+.menu {
+    background-color: $corCinzaTrator;
+    color: $corBranco;
+    height: 50px;
+    font-size: 32pt;
+    
+    
+}
+.conteudo {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.container {
+     
+}
+.flex {
+    display: flex; 
+    
+}
+.flex-item-1 {
+	flex: 1;
+    
+    
+     
+}
+.center {
+    align-content: center;
+   margin-top: 4px;
+}
+.flexwrap {
+    flex-wrap: wrap;
+}
+ 
+.header {
+    height: 400px;
+    background-image: url(../img/header.jpg);
+    
+    background-position: center;
+      
+    background-size: cover; 
+    display: flex;
+    
+    
+    
+     
+}
+.flex-logo {
+   // flex: 1; //alinhar vertical
+    align-self: center; //alinhar horizontal
+}
+.column {
+	flex-direction: column;
+}
+.flex-end {
+	 
+    justify-content: flex-end;
+}
+
+.telefone {
+    font-size: 30pt;
+    color: $corBranco;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.servicos {
+    background-color: $corCinzaTrator;
+    color: $corBranco;
+     
+}
+.flex-servico {
+    flex: 1;
+}
+.flex-servico p {
+    font-size: 24pt;
+    line-height: 36pt;
+}
+.divServico{
+    display: flex;
+    padding-top: 30px;
+}
+.listaServicos{
+    text-align: right;
+    padding-right: 70px;
+}
+.listaLocais {
+    text-align: left;
+    padding-left: 70px;
+}
+h1 {
+    font-size: 32pt;
+}
+h2 {
+    font-size: 20pt;
+}
+.trator {
+    flex: 1; //alinhar vertical
+    align-self: center; //alinhar horizontal
+    padding-top: 30px;
+     
+}
+.trator img {
+    width: 60%;
+}
+.fk {
+    padding-bottom: 26px;
+}
+.contato {
+     background-color: $corBranco;
+    color: $corCinzaTrator;
+}
+footer {
+    height: 50px;
+    background-color: $corCinzaTrator;
+    color: $corBranco;
+}
+footer p {
+    padding-top: 5px;
+}
