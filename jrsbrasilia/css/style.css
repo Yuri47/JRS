@@ -443,4 +443,230 @@ footer p {
   padding-top: 5px;
 }
 
+/* line 163, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.menu-mobile {
+  display: none;
+}
+
+/* line 167, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+#menu-tgl {
+  display: none;
+}
+
+/* line 170, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.tituloMenu {
+  display: none;
+}
+
+/* line 174, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 180, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/style.scss */
+.menuDrop a:hover {
+  background-color: #fff;
+  color: #17181c;
+}
+
+/* RESPONSIVO Smartphone*/
+@media screen and (max-width: 759px) {
+  /* line 127, C:/Users/Manut/Desktop/curso/mmxbr/scss/_grid.scss */
+  /* line 5, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .introducao {
+    background-image: url(../img/bgmobile.jpg) no-repeat center center fixed;
+  }
+  /* line 9, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .showcase {
+    background-image: url(../img/bgmobile.jpg);
+  }
+  /* line 14, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .introducao h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+  }
+  /* line 21, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .showcase h3 {
+    font-size: 2em;
+  }
+  /* line 24, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .showcase {
+    height: 450px;
+  }
+  /* line 29, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .rodape {
+    background-color: #2f2f2f;
+    height: 1100px;
+  }
+  /* line 34, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  nav ul li:hover {
+    background-color: transparent;
+  }
+  /* line 41, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .container {
+    overflow: hidden;
+  }
+  /* line 44, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .grid-4 {
+    max-width: 100%;
+  }
+  /* line 47, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* line 52, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .introducao h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 200;
+    font-family: 'Lato-HairLine';
+  }
+  /* line 59, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .container-menu {
+    left: 0%;
+    width: 100%;
+  }
+  /* line 64, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .titulo h1 {
+    font-size: 4em;
+  }
+  /* line 67, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .fimDoSite {
+    background-color: #222;
+    height: 110px;
+    color: #4e4e4e;
+  }
+  /* line 72, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  form {
+    padding-bottom: 10px;
+  }
+  /* line 76, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .menuDrop {
+    min-width: 100%;
+    height: 50px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* line 84, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .menu .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 89, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .menuDrop li {
+    padding-top: 20px;
+    display: list-item;
+  }
+  /* line 93, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .icone {
+    background-color: aqua;
+    float: right;
+    font-size: 50px;
+    padding: 0 18px;
+    cursor: pointer;
+  }
+  /* line 100, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .nav li::after {
+    content: '';
+    display: block;
+    padding-top: 10px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  /* line 107, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .tituloMenu {
+    display: block;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Gentius';
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 12%;
+  }
+  /* line 117, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl {
+    display: none;
+  }
+  /* line 123, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl:checked ~ .menuDrop {
+    height: 270px;
+    transition: .5s;
+  }
+  /* line 129, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl:checked ~ .menuDrop .menu-btn::after {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    position: relative;
+    transition: transform .2s ease;
+  }
+  /* line 140, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl:checked ~ .menuDrop .menu-btn::after {
+    margin-top: 0px;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+  /* line 145, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl:checked ~ .menuDrop .menu-btn {
+    border-top-color: transparent;
+  }
+  /* line 149, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl:checked ~ .menuDrop .menu-btn::before {
+    margin-top: 0px;
+    top: 6px;
+    transform: rotate(135deg);
+  }
+  /* line 160, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl ~ .menuDrop .menu-btn {
+    display: block;
+    color: #f2f2f2;
+    width: 36px;
+    height: 44px;
+    border-top: 4px solid;
+    margin: 12px 12px 0 0;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+  }
+  /* line 172, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  #menu-tgl ~ .menuDrop .menu-btn::after, .menuDrop .menu-btn::before {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    background: currentColor;
+    position: relative;
+    transition: transform .2s ease;
+  }
+  /* line 185, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .flexwrap {
+    flex-flow: column nowrap;
+    display: flex;
+    margin-left: 50px;
+  }
+  /* line 190, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .flex-item-1 {
+    text-align: center;
+    flex: 1;
+  }
+  /* line 194, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .menuDrop a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  /* line 199, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .logo {
+    width: 50%;
+  }
+  /* line 202, C:/Users/Manut/Desktop/JRS/jrsbrasilia/scss/_responsiveMobile.scss */
+  .telefone {
+    font-size: 20pt;
+  }
+}
+
 /*# sourceMappingURL=../css/style.map */

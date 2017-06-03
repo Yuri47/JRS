@@ -37,9 +37,7 @@
      
 }
     
-    .contato {
-        margin-top: 50px;
-    }
+     
     .container {
         overflow: hidden;
     }
@@ -108,11 +106,11 @@
     }
     .tituloMenu{
         display: block;
-        color: #f2f2f2;
-        font-size: 2em;
-        font-family: 'Lato-HairLine';
+        color: $corBranco;
+        font-size: 1em;
+        font-family: 'Gentius';
         text-align: center;
-        padding-top: 8px;
+        padding-top: 6px;
         padding-left: 12%;
 }
     
@@ -123,7 +121,7 @@
     
     //FUNÇÕES QUANDO PRESSIONAR O BOTÃO
     #menu-tgl:checked ~ .menuDrop {
-	  height: 350px;
+	  height: 270px;
         transition: .5s;
           
 }
@@ -182,22 +180,28 @@
         
         
 }
-    .post {
-           max-width:  100%;   
-    }
    
-    .post p {
-  
-    
-    text-align: left; 
-    font-size: 18px;  
-    line-height: 27px;
-    margin-bottom: 20px; 
-    text-indent: 3em;   
-}
-    
-    
-    
+ 
+    .flexwrap {
+	flex-flow: column nowrap;
+         display: flex;
+        margin-left: 50px;
+     }
+    .flex-item-1 {
+        text-align: center;
+        flex: 1;
+    }
+    .menuDrop a:hover{
+        background-color: rgba(0,0,0, 0.5);
+        color: $corBranco;
+         
+    }
+    .logo {
+        width: 50%;
+    }
+    .telefone {
+        font-size: 20pt;
+    }
     
     
 }
