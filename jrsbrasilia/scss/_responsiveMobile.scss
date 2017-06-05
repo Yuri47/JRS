@@ -197,11 +197,84 @@
          
     }
     .logo {
+        
+        max-width: 200px;
+        margin-top: 20px;
         width: 50%;
     }
+    
+    .header {
+        height: 220px;
+        background-image: url(../img/header.jpg);
+    
+        background-position: center;
+      
+        background-size: cover; 
+    display: flex;
+     
+}
     .telefone {
+   
         font-size: 20pt;
+    color: $corBranco;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
+    
+    
+    .flex-servico p {
+    font-size: 14pt;
+    line-height: 36pt;
+}
+    
+  .listaServicos{
+    text-align: right;
+    padding-right: 20px;
+}
+.listaLocais {
+    text-align: left;
+    padding-left: 20px;
+}  
+   h1 {
+    font-size: 32pt;
+} 
+    
+    .servicoMobile {
+        flex-direction: column;
     }
+    
+    .listaMobile1 {
+        text-align: center;
+        padding-right: 0px;
+    }
+     .listaMobile2 {
+        text-align: center;
+        padding-right: 0px;
+    }
+    
+    .conteudo {
+        max-width: 94%;
+    }
+    
+    .trator img {
+        width: 100%;
+    }
+    .fotos img {
+    width: 80%;
+    height: auto;
+    margin: 10px 0px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }

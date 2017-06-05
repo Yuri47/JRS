@@ -1,0 +1,7 @@
+Sitemap: http://jrsbrasilia.com/sitemap.xml
+User-agent: *
+Disallow: 
+Disallow: /scss
+Disallow: /js
+Disallow: /img
+Disallow: /font

@@ -80,9 +80,6 @@ body {
       
     background-size: cover; 
     display: flex;
-    
-    
-    
      
 }
 .flex-logo {
@@ -149,6 +146,9 @@ h2 {
      background-color: $corBranco;
     color: $corCinzaTrator;
 }
+.contato a {
+    color: $corCinzaTrator;
+}
 footer {
     height: 50px;
     background-color: $corCinzaTrator;
@@ -184,6 +184,11 @@ a {
          
     }
 
+.fotos img {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
 
 
 @import 'responsiveMobile';
