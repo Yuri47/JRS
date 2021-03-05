@@ -12,3 +12,10 @@
 
 
  */
+ 
+ 
+	var d = new Date();
+  var n = d.getFullYear();
+  //$('#footerTP').text(`Templo Pilates - ${n}`)
+  
+  document.querySelector("#jrsfooter").innerHTML = `JRS Serviços - ${n}`
